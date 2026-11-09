@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("LLVMCompilerRT")
-JLLWrappers.@generate_main_file("LLVMCompilerRT", UUID("4e17d02c-6bf5-513e-be62-445f41c75a11"))
+JLLWrappers.@generate_main_file("LLVMCompilerRT", Base.UUID("4e17d02c-6bf5-513e-be62-445f41c75a11"))
 end  # module LLVMCompilerRT_jll

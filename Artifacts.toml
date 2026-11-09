@@ -1,116 +1,133 @@
 [[LLVMCompilerRT]]
 arch = "aarch64"
-git-tree-sha1 = "d793abb70ccb4048b2c4c0480b3e5b339e478cee"
+git-tree-sha1 = "301e48822526638853a4ae3780943ee903e4476e"
 os = "macos"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "be4a0432637d8d5f5186dd7a18c052d45182aceb1fbaad1d95b7e90ee20a9c83"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.aarch64-apple-darwin.tar.gz"
+    sha256 = "194747c20aeeb385cf71423c2872dfa4cec776331daee61a9d198e45abc8cee4"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.aarch64-apple-darwin.tar.gz"
 [[LLVMCompilerRT]]
 arch = "aarch64"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
+git-tree-sha1 = "f5b6a20fa28650383510a6e69cea5b9109ced8b3"
 libc = "glibc"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.aarch64-linux-gnu.tar.gz"
+    sha256 = "4863429f10f45eb59df310211b98e0d4d7728f7190e2a53fb68f16e7a49f1054"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.aarch64-linux-gnu.tar.gz"
 [[LLVMCompilerRT]]
 arch = "aarch64"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
+git-tree-sha1 = "30c9e866a3fe5bb23da23d62edf39386ab4f72c1"
 libc = "musl"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.aarch64-linux-musl.tar.gz"
+    sha256 = "8ac8925bb70f38c6d5f4b6f3743585e460bb8293c1f8dfd63be497a19e544f86"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.aarch64-linux-musl.tar.gz"
 [[LLVMCompilerRT]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv6l-linux-gnueabihf.tar.gz"
-[[LLVMCompilerRT]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
-libc = "musl"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv6l-linux-musleabihf.tar.gz"
-[[LLVMCompilerRT]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv7l-linux-gnueabihf.tar.gz"
-[[LLVMCompilerRT]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
-libc = "musl"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv7l-linux-musleabihf.tar.gz"
-[[LLVMCompilerRT]]
-arch = "i686"
-git-tree-sha1 = "712189b811f5210aa49273d200f1558e48eac244"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "1877a128621443ad4361a2785a8b493602028cd882ac6999b7e987915a1517e1"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.i686-linux-gnu.tar.gz"
-[[LLVMCompilerRT]]
-arch = "i686"
-git-tree-sha1 = "30a85ce12d255bc4c6f2c9aa77fe957c16dedb15"
-os = "windows"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "ba83af08f9003ea039fcae0964f59f0a78eb33284420c0534e4aa902459a6c62"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.i686-w64-mingw32.tar.gz"
-[[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "5c6b904c05a4cea31c87cb1d7b9f95903fbb1805"
-os = "macos"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "acf93a2a166551eff5db7b18dc7144446a49f0af0d11e45be7033303ca37a4f6"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-apple-darwin.tar.gz"
-[[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "5c7d4222646e2a03adf3b79dc06f3f5b18c669d3"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "81a601d4fa01887f300f28407b4ef6779014db27f976d93c09e4d3ee46690c8e"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-linux-gnu.tar.gz"
-[[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "87a836790da5a608210cfeaded9b23802dd804c6"
+arch = "aarch64"
+git-tree-sha1 = "e8b9e557bfc6d174784caab6edf5802609664c49"
 os = "freebsd"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "8d972ba6846b2ef65eefccb2e80b9d74f536688b4d5569ed34bf7744fd41dae2"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "183ad8945296ab584acf24a07378d84a64e3de16ab462fd7f004eba3670acc84"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.aarch64-unknown-freebsd.tar.gz"
 [[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "90de9d9999c384867f12930cd4e13bc3207a1e7b"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "f34340882a7c1821b56485fee6cc6f3c88ce6b04"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "5a445c726cb814071fa7c5b007abb8125bf223f1a564a1b3eb2e9b0c738adea5"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.armv6l-linux-gnueabihf.tar.gz"
+[[LLVMCompilerRT]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8939ae5d86c5bee3e78aac47559dd48616045795"
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "64dc60f93b042a5c9d5f0dafe4542de11a751083f3709da0fe9f73510dc9a9a0"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.armv6l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f34340882a7c1821b56485fee6cc6f3c88ce6b04"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "5a445c726cb814071fa7c5b007abb8125bf223f1a564a1b3eb2e9b0c738adea5"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.armv7l-linux-gnueabihf.tar.gz"
+[[LLVMCompilerRT]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8939ae5d86c5bee3e78aac47559dd48616045795"
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "64dc60f93b042a5c9d5f0dafe4542de11a751083f3709da0fe9f73510dc9a9a0"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.armv7l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT]]
+arch = "i686"
+git-tree-sha1 = "5eab3e6b0d8457a9cd42d20cdddb6c33dd1b27c0"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "9bc6c4822c7f625b86d1d4adcbbb399caf0982d774068ba6857dd1b761c3a0d1"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.i686-linux-gnu.tar.gz"
+[[LLVMCompilerRT]]
+arch = "i686"
+git-tree-sha1 = "68e00d4c2e0050b786bb45d0803623d0fec37a31"
 os = "windows"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "46ebec82816806ab91a7a45079315771af63ef00a533289dcc9f2e558aa12080"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-w64-mingw32.tar.gz"
+    sha256 = "4d0e5b2a28694315c48fa2e398b3ddd7d74ef18eaedfa74d650f54fd979d8fb4"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.i686-w64-mingw32.tar.gz"
+[[LLVMCompilerRT]]
+arch = "riscv64"
+git-tree-sha1 = "080adde2a90e0e25aa0e4a873627db250b939033"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "b744b1449e7ed5aaf0e7d2ec9710003ae16574b6c2d969fc7d023a9b5daa5a86"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.riscv64-linux-gnu.tar.gz"
+[[LLVMCompilerRT]]
+arch = "x86_64"
+git-tree-sha1 = "4d6ba956cb9837be49da4b71f57987e0957a9ded"
+os = "macos"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "a6f188274375c21acf55a95224804538fa69fa4848aa2a4682d9e572bf64cfdd"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.x86_64-apple-darwin.tar.gz"
+[[LLVMCompilerRT]]
+arch = "x86_64"
+git-tree-sha1 = "5459348a39ff9644ff3869a54e55b696c4405c43"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "d3d749d34765ff06b45dcdea926890c9332bd1d46d47d6fcf803e9b7ca5b3c30"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.x86_64-linux-gnu.tar.gz"
+[[LLVMCompilerRT]]
+arch = "x86_64"
+git-tree-sha1 = "c14d10e8d70b9cc1bab968f173666b08dece0d9d"
+os = "freebsd"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "fbcd2e31120a443691db7596c607aaa2761a2ba89b636a7181cd97df5aad3bb7"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.x86_64-unknown-freebsd.tar.gz"
+[[LLVMCompilerRT]]
+arch = "x86_64"
+git-tree-sha1 = "449e49cf6062501e631721fe0baa8599cf70a6ce"
+os = "windows"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "633939e9670e55f746e3922c8653dda63fe6f3ba72cc5f7f5782ad7aa244efe2"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v20.1.8+0/LLVMCompilerRT.v20.1.8.x86_64-w64-mingw32.tar.gz"
